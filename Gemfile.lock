@@ -68,8 +68,6 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
-    autoprefixer-rails (10.2.5.0)
-      execjs (< 2.8.0)
     bindex (0.8.1)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
@@ -79,7 +77,6 @@ GEM
     crass (1.0.6)
     diff-lcs (1.5.0)
     erubi (1.10.0)
-    execjs (2.7.0)
     ffi (1.15.5)
     font-awesome-sass (5.12.0)
       sassc (>= 1.11)
@@ -213,7 +210,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  autoprefixer-rails (= 10.2.5)
   bootsnap (>= 1.4.4)
   byebug
   font-awesome-sass (~> 5.12.0)
