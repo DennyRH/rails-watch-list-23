@@ -2,7 +2,7 @@
 <br>
 <ul class="list-group mb-3">
   <li class="list-group-item">
-    <% @list.movie.each do |l| %>
+    <% @list.movies.each do |l| %>
       <% bkm = Bookmark.find_by(list: @list, movie: l) %>
       <%= l.title %> <br> <%= bkm.comment %> <br><br>
     </li>
